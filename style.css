@@ -17,7 +17,7 @@ body {
     font-family: "cormorant";
     color: var(--ivory);
     text-align: justify;
-    line-height: 120%;
+    line-height: 130%;
     padding-left: 4%;
     padding-right: 4%;
    
@@ -44,7 +44,7 @@ p {
 .boxstyle {
     background: var(--noirtrans);
     margin: 10px;
-    padding: 10px;
+    padding: 15px;
 }
 
 .highlight {
@@ -151,21 +151,24 @@ padding: 0;
 }
 
 .clanpics img {
-max-width: 100%;   
+max-width: 100%;  
+max-height: 150px; 
 min-width: 50px;
 min-height: 50px; 
-max-height: 150px;
 margin: auto;
-
 }
+
 
 .clanpics {
     margin: auto;
+    padding: 10px;
 }
 
 .txtclan img {
-    margin: auto;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 
 .logofaction {
